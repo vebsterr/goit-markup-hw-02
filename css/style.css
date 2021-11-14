@@ -98,6 +98,8 @@ body {
 }
 
 .hero-button {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
     cursor: pointer;
     font-weight: 700;
     font-size: 16px;
@@ -163,7 +165,7 @@ body {
 
 .team-item-title {
     font-weight: 500;
-    font-size: 16;
+    font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
     color: var(--third-text-color);
@@ -201,6 +203,13 @@ body {
 }
 
 .footer-contacts {
+    /* <!--------ВОТ ТУТ-----------> */
+    
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+
+letter-spacing: 0.03em;
     color: var(--logo-text-footer-color)
 }
 .footer-contacts:hover {
